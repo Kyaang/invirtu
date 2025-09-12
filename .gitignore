@@ -1,6 +1,10 @@
-node_modules
 # Next.js build
 .next/
 out/
 dist/
+
+# Node modules
 node_modules/
+
+# macOS
+.DS_Store
