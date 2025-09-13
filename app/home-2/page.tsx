@@ -4,7 +4,7 @@ import { MainHeader } from '@/src/layout/header';
 import { AboutSection } from '@/src/sections/about/v1';
 import { BlogSection } from '@/src/sections/blog/v1';
 import { CtaSection } from '@/src/sections/cta/v1';
-import { HeroSection } from '@/src/sections/hero/v1';
+//import { HeroSection } from '@/src/sections/hero/v1';
 import { ProjectSection } from '@/src/sections/project/v1';
 import { projectSectionData } from '@/data/project-section/v1/home-page';
 //import { PricingSection } from '@/src/sections/pricing/version-2';
@@ -24,10 +24,10 @@ export default function Page() {
   return (
     <>
       <MainHeader version="1" />
-      <HeroSection />
+      {/*<HeroSection />*/}
       <ServiceSection className="!pt-0" {...serviceSectionData} />
       <CtaSection />
-      <PricingSection />
+      {/*<PricingSection />*/}
       <AboutSection />
       <WorkprocessSection />
       <ProjectSection {...projectSectionData} />

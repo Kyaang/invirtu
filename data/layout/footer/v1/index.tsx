@@ -1,5 +1,5 @@
 import { FooterSectionProps } from '@/src/layout/footer/v1';
-import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa6';
+//import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa6';
 
 export const footerSectionData: FooterSectionProps = {
   about: {
