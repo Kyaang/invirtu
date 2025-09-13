@@ -10,7 +10,7 @@ export const projectSectionData: ProjectSectionProps = {
     {
       slug: '/',
       image: {
-        src: '/assets/images/project/1.png',
+        src: '/assets/images/project/expertise1.png',
         alt: 'portfolio-1',
       },
       title: 'Virtualisation',
@@ -19,7 +19,7 @@ export const projectSectionData: ProjectSectionProps = {
     {
       slug: '/',
       image: {
-        src: '/assets/images/project/2.png',
+        src: '/assets/images/project/expertise2.png',
         alt: 'portfolio-1',
       },
       title: 'Stockage',
@@ -28,7 +28,7 @@ export const projectSectionData: ProjectSectionProps = {
     {
       slug: '/',
       image: {
-        src: '/assets/images/project/3.png',
+        src: '/assets/images/project/expertise3.png',
         alt: 'portfolio-1',
       },
       title: 'Sauvegarde',
@@ -37,7 +37,7 @@ export const projectSectionData: ProjectSectionProps = {
     {
       slug: '/',
       image: {
-        src: '/assets/images/project/4.png',
+        src: '/assets/images/project/expertise4.png',
         alt: 'portfolio-1',
       },
       title: 'Distribution',
