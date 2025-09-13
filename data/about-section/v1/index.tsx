@@ -64,16 +64,16 @@ export const aboutSectionData: AboutSectionProps = {
     description:
       'INVIRTU - Expert en infrastructures et solutions IT, vous propose une gamme complète de services adaptés à vos besoins : virtualisation, stockage, sauvegarde, et services Cloud.',
   },
-  /*keyPoints: [
-    {
+  keyPoints: [
+    /*{
       icon: <Icon1 />,
       title: 'Cloud Migrate Pro',
     },
     {
       icon: <Icon2 />,
       title: 'AI Forge Labs',
-    },
-  ],*/
+    },*/
+  ],
   description:
     'Nous allions expertise technique et accompagnement sur-mesure pour optimiser vos systèmes aujourd’hui et préparer vos évolutions de demain.',
 };
