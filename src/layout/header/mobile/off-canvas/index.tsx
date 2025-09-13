@@ -14,9 +14,9 @@ import { HeaderProps } from '../../desktop/v1';
 import { Navigation } from '../navigation';
 import { MdMenu } from 'react-icons/md';
 import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
+  //FaFacebookF,
+  //FaTwitter,
+  //FaInstagram,
   FaLinkedinIn,
 } from 'react-icons/fa6';
 import { BrandLogo } from '@/src/layout/brand-logo';
