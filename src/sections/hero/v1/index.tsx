@@ -2,7 +2,7 @@
 
 import { Container } from '@/src/components/container';
 
-import { ImageProps, LinkProps } from '@/src/common-types';
+import { ImageProps /*LinkProps*/ } from '@/src/common-types';
 //import { Button } from '@/src/components/button';
 //import { CustomLink } from '@/src/components/custom-link';
 import { Shapes } from './shapes';
@@ -20,9 +20,9 @@ import { useRef } from 'react';
 
 SwiperCore.use([EffectFade, Navigation]);
 
-const navigationButtonCommonClasses = cn(
+/*const navigationButtonCommonClasses = cn(
   'w-[60px] relative z-40 h-[60px] grid place-items-center leading-none text-[1.25rem] bg-accent-900 hover:bg-primary transition-all duration-300 text-white rounded-full'
-);
+);*/
 
 export interface HeroProps {
   items: {
