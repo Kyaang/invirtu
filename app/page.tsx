@@ -17,7 +17,7 @@ import { TestimonialSection } from '@/src/sections/testimonial/v1';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'INVIRTU | Home',
+  title: 'INVIRTU | Toulouse - Expert en solutions IT',
   description: 'INVIRTU - IT Solutions et Services',
 };
 
