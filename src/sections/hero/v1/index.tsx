@@ -4,7 +4,7 @@ import { Container } from '@/src/components/container';
 
 import { ImageProps, LinkProps } from '@/src/common-types';
 //import { Button } from '@/src/components/button';
-import { CustomLink } from '@/src/components/custom-link';
+//import { CustomLink } from '@/src/components/custom-link';
 import { Shapes } from './shapes';
 import { heroData } from '@/data/hero/v1';
 import { cn } from '@/src/utils/shadcn';
@@ -16,7 +16,7 @@ import { Swiper as SwiperType, Navigation } from 'swiper';
 // Import Swiper styles
 import 'swiper/swiper-bundle.min.css';
 import { useRef } from 'react';
-import { FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6';
+//import { FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6';
 
 SwiperCore.use([EffectFade, Navigation]);
 
