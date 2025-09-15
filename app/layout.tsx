@@ -8,6 +8,7 @@ import { Toaster } from 'sonner';
 import { ThemeProvider } from '@/src/components/theme-provider';
 import { ModeToggle } from '@/src/components/mode-toggle';
 import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 interface Props {
   children: React.ReactNode;
@@ -55,6 +56,7 @@ export default async function RootLayout({ children }: Props) {
         />
         <ScrollToTopButton />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
