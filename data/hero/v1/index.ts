@@ -7,11 +7,11 @@ export const heroData: HeroProps = {
         src: '/assets/images/hero/home1.jpg',
         alt: 'hero 1',
       },
-      title: 'Des solutions IT & une expertise technique qui s’adaptent à vous.',
-      button: {
-        label: 'Discover More',
+      title: 'Des solutions IT & une expertise technique qui s’adaptent à vos besoins.',
+/*      button: {
+        label: '',
         href: '/',
-      },
+      },*/
     },
     {
       image: {
@@ -19,10 +19,10 @@ export const heroData: HeroProps = {
         alt: 'hero 1',
       },
       title: 'Expertise. Innovation. Excellence.',
-      button: {
-        label: 'Discover More',
+/*      button: {
+        label: '',
         href: '/',
-      },
+      },*/
     },
     {
       image: {
@@ -30,10 +30,10 @@ export const heroData: HeroProps = {
         alt: 'hero 1',
       },
       title: 'Votre partenaire de confiance en solutions IT.',
-      button: {
-        label: 'Discover More',
+/*      button: {
+        label: '',
         href: '/',
-      },
+      },*/
     },
   ],
 };
