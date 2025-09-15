@@ -7,6 +7,7 @@ import { cn } from '@/src/utils/shadcn';
 import { Toaster } from 'sonner';
 import { ThemeProvider } from '@/src/components/theme-provider';
 import { ModeToggle } from '@/src/components/mode-toggle';
+import { Analytics } from "@vercel/analytics/next"
 
 interface Props {
   children: React.ReactNode;
@@ -53,6 +54,7 @@ export default async function RootLayout({ children }: Props) {
           visibleToasts={9}
         />
         <ScrollToTopButton />
+        <Analytics />
       </body>
     </html>
   );
