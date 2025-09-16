@@ -6,7 +6,7 @@ import { HeroSection } from '@/src/sections/hero/v3';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'INVIRTU | A propos',
+  title: 'INVIRTU | Contactez-nous',
   description: 'INVIRTU - IT Solutions et Services',
 };
 
