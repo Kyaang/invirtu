@@ -13,7 +13,7 @@ import { ProjectSection } from '@/src/sections/project/v1';
 //import { ServiceSection } from '@/src/sections/service/v1';
 //import { StatisticsSection } from '@/src/sections/statistics/v1';
 //import { TeamSection } from '@/src/sections/team/v1';
-import { TestimonialSection } from '@/src/sections/testimonial/v1';
+import { TestimonialSection } from '@/src/sections/testimonial/v2';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
