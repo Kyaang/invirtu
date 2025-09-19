@@ -18,18 +18,17 @@ export interface ContactSectionProps {
 
 export const contactSectionData: ContactSectionProps = {
   sectionHeading: {
-    title: 'Feel free to messege',
+    title: 'Contactez-nous',
   },
   contactInfo: {
     sectionHeading: {
-      title: 'Get in touch ',
+      title: 'Nos coordonnées',
       description:
-        'It is a long established fact that a reader will be distrol acted bioiiy desig the rea dablea contentIt is a long established fact that a reader will be ',
+        'Nous sommes impatients de vous entendre !',
     },
-    location: `Dhaka 102, utl 1216, road 45 house
-shantighar rahuta, 1213`,
-    mail: 'ijmnhhasan000@yourmail.com',
-    phone: '0000-0000-00-000',
+    location: `Toulouse, France`,
+    mail: 'contact@invirtu.fr',
+    phone: '+33 6 72 21 03 61',
   },
 };
 

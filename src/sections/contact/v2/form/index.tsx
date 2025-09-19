@@ -86,7 +86,7 @@ export function Form() {
           >
             <div>
               <TextInput
-                placeholder="Your name"
+                placeholder="Votre nom"
                 type="text"
                 name="name"
                 value={values.name}
@@ -109,7 +109,7 @@ export function Form() {
 
             <div>
               <TextInput
-                placeholder="Your Email"
+                placeholder="Votre Email"
                 type="email"
                 name="email"
                 value={values.email}
@@ -132,7 +132,7 @@ export function Form() {
 
             <div>
               <TextInput
-                placeholder="Subject"
+                placeholder="Sujet"
                 type="text"
                 name="subject"
                 value={values.subject}
@@ -155,7 +155,7 @@ export function Form() {
 
             <div>
               <TextInput
-                placeholder="Phone"
+                placeholder="Téléphone"
                 type="text"
                 name="phone"
                 value={values.phone}
@@ -203,7 +203,7 @@ export function Form() {
 
             <div>
               <Button type="submit" disabled={isSubmitting}>
-                <span className="relative z-1">SEND A MESSAGE</span>
+                <span className="relative z-1">ENVOYER VOTRE MESSAGE</span>
               </Button>
             </div>
           </form>

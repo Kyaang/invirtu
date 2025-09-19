@@ -20,7 +20,7 @@ export async function contactUsFormSubmit(
 
     const mailOptions = {
       from: email,
-      to: process.env.CONTACT_MAIL_ADDRESS,
+      to: process.env.CONTACT_TO_ADDRESS,
       subject: subject,
       html: `
         <h3 style="margin-bottom:8px">Name:</h3>
