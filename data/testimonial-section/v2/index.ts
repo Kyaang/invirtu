@@ -9,80 +9,15 @@ export const testimonialSectionData: TestimonialSectionProps = {
     {
       person: {
         image: {
-          src: '/assets/images/testimonial/person-3.png',
-          alt: 'Esther Howard',
+          src: '/assets/images/testimonial/ch-cahors.jpg',
+          alt: 'CH CAHORS',
         },
-        name: 'Esther Howard',
-        about: 'IT Auditing',
+        name: 'Cédric Lafon & Driss Makhout',
+        about: 'Ingénieurs infrastructures & réseaux - CH CAHORS',
       },
       speech:
-        'With a commitment to driving technological evolution, our IT solutions and services are the cornerstone of your digital',
+        'En tant qu’hôpital support du GHT du Lot, nous avons fait confiance à INVIRTU pour renforcer notre infrastructure. Nous bénéficions aujourd’hui d’un cluster VxRail fiable, de sauvegardes immuables Veeam sur DataDomain, et surtout d’un accompagnement marqué par l’expertise, réactivité et le professionnalisme de leur équipe. Une architecture robuste et sécurisée, parfaitement alignée avec les exigences de notre hôpital et de l’ensemble du GHT.',
       rating: 5,
-    },
-    {
-      person: {
-        image: {
-          src: '/assets/images/testimonial/person-4.png',
-          alt: 'Leslie Alexander',
-        },
-        name: 'Leslie Alexander',
-        about: 'CRM Integration',
-      },
-      speech:
-        'With a commitment to driving technological evolution, our IT solutions and services are the cornerstone of your digital',
-      rating: 4,
-    },
-    {
-      person: {
-        image: {
-          src: '/assets/images/testimonial/person-5.png',
-          alt: 'Kristin Watson',
-        },
-        name: 'Kristin Watson',
-        about: 'President of Sales',
-      },
-      speech:
-        'With a commitment to driving technological evolution, our IT solutions and services are the cornerstone of your digital',
-      rating: 5,
-    },
-    {
-      person: {
-        image: {
-          src: '/assets/images/testimonial/person-4.png',
-          alt: 'Leslie Alexander',
-        },
-        name: 'Leslie Alexander',
-        about: 'CRM Integration',
-      },
-      speech:
-        'With a commitment to driving technological evolution, our IT solutions and services are the cornerstone of your digital',
-      rating: 4,
-    },
-    {
-      person: {
-        image: {
-          src: '/assets/images/testimonial/person-5.png',
-          alt: 'Kristin Watson',
-        },
-        name: 'Kristin Watson',
-        about: 'President of Sales',
-      },
-      speech:
-        'With a commitment to driving technological evolution, our IT solutions and services are the cornerstone of your digital',
-      rating: 5,
-    },
-    {
-      person: {
-        image: {
-          src: '/assets/images/testimonial/person-4.png',
-          alt: 'Leslie Alexander',
-        },
-        name: 'Leslie Alexander',
-        about: 'CRM Integration',
-      },
-      speech:
-        'With a commitment to driving technological evolution, our IT solutions and services are the cornerstone of your digital',
-      rating: 4,
     },
   ],
 };
